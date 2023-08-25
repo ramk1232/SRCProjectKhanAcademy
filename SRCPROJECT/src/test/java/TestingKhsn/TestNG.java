@@ -57,7 +57,7 @@ public class TestNG {
 		String url = driver.getCurrentUrl(); // Actual
 		
 		boolean result=(url.equals("https://www.khanacademy.org/profile/me/teachers"));
-		Assert.assertEquals(url, "https://www.khanacademy.org/profile/me/teacher");
+		Assert.assertEquals(url, "https://www.khanacademy.org/profile/me/teachers");
 		Assert.assertTrue(true, "url not valid");
 		//Assert.assertTrue(true);
 //		if(url.equals("https://www.khanacademy.org/profile/me/teachers")) {
